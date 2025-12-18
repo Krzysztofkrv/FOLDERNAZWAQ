@@ -3,33 +3,50 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tytuł naszej strony -->
         <title>Strona - Zadanie 1</title>
         <meta name="description" content="">
-        <meta name="author" content="1X Oskar Moszczyński">
+        <!-- Informacja o autorze pliki -->
+        <meta name="author" content="1X Krzysztof Kalita">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Import naszych styli -->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Tworzymy głównego diva dla tego elementu, który ostyluje nam te miejsce i ułozy tekst na środku. -->
         <div class="hero">
+            <!-- Pierwszy główny tekst (największy - tylko 1x h1 na całą stronę) -->
             <h1>Pierwsza strona www</h1>
-            <p>Autor: <strong>2A Oskar Moszczyński</strong></p>
+            <!-- Krótki opis, znacznik strong robi automatycznie pogrubienie -->
+            <p>Autor: <strong>2A Krzysztof Kalita</strong></p>
         </div>
+        <!-- Tworzymy drugi div którego zadaniem będzie ułożyć kolejne elementy w środku obok siebie -->
         <div class="main">
+            <!-- Element porzędny diva, która będzie w sobie trzymał tekst wraz z listą -->
             <aside class="listbox">
                 <h2>Wykorzystane języki</h2>
+                <!-- Lista z elementami tesktowymi -->
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
                 </ul>
             </aside>
+            <!-- Element porzędny diva, która będzie w sobie trzymał tekst wraz z listą -->
             <aside class="listbox">
                 <h2>Strony z pomocą</h2>
+                <!-- Lista z elementami tekstowymi z odnośnikami -->
                 <ol>
                     <li><a rel="noopener" href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools.com</a></li>
                     <li><a rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">developer.mozilla.org</a></li>
                 </ol>
             </aside>
+        </div>
+
+        <div class="circle-box">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
         </div>
 
         <footer>
@@ -46,4 +63,5 @@
             </div>
         </footer>
     </body>
+
 </html>
